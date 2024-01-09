@@ -1,0 +1,27 @@
+@media screen and (max-width:576px) {
+    /* Strategy Section Responsive */
+
+    #cardDiv{
+        display: grid;
+        grid-template-columns: repeat(1f 1f);
+    }
+    #Card-bodyDiv1{
+        flex-direction: column;
+    }
+    #Card-bodyDiv1Img{
+        width: 310px;
+    }
+    #Card-bodyDiv2Img{
+        width: 310px;
+    }
+    #Card-bodyDiv2{
+        flex-direction: column;
+    }
+  
+    #Footer-Section{
+        display: grid;
+        grid-template-columns: repeat(2fr,1fr);
+        align-items: center;
+        
+    }
+}
